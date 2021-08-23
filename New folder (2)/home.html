@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+
+<body >
+  <nav class="navbar navbar-expand-lg   navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="order.html">Order <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="mainDiv" style="height: 100vh;">
+
+    
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card" style="width: 18rem;">
+            <img src="data:image/png;base64,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" class="card-img-top card_img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">McDonald's</h5>
+              <p class="card-text">Get your hands on our all-new mouth-watering Wraps with a mint twist!<br> Amaze your taste buds with our all-new Wraps in  flavor!</p>
+              <a href="#" class="btn btn-primary">Visit</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6">
+          <div class="card" style="width: 18rem;">
+            <img src="https://play-lh.googleusercontent.com/vd0Yq8ge1ugmq3O0cvHnwwASNXFC5CjVygTLx4p__MMyBlbKGffKZ__y94oU4P_nwTs" class="card-img-top card_img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">KFC</h5>
+              <p class="card-text">Kentucky Fried Chicken provides the best, the most cripsy fried chicken and zinger burgers that will leave your mouth watering for more.</p>
+              <a href="#" class="btn btn-primary">Visit</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="col-md-6">
+          <div class="card" style="width: 18rem;">
+            <img src="index/assets/unnamed.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">card</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    
+
+  </div>
+
+  <!-- <input type="text" id="data">
+    <button onclick="add()"> Add</button> -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCzsSCRff4AuILerhUDFC95rHVNrDq6N78",
+      authDomain: "hackathon-7fa74.firebaseapp.com",
+      projectId: "hackathon-7fa74",
+      storageBucket: "hackathon-7fa74.appspot.com",
+      messagingSenderId: "519693422913",
+      appId: "1:519693422913:web:a56059b02db55542d551c0"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

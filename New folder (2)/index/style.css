@@ -1,0 +1,51 @@
+.mainDiv{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(https://krot.mobi/uploads/posts/2021-01/1610166212_27-p-temnii-fon-dlya-menyu-39.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.innerDiv{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px outset gray;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 30%;
+    min-width: fit-content;
+    height: 80%;
+} 
+hr{
+    text-align: center;
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+.card{
+    margin-top: 20px;
+}
+.row{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px outset gray;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    /* width: 30%; */
+    min-width: fit-content;
+    height: max-content;
+    /* height: 80%; */
+} 
+/* img{
+    width: inherit;
+    height: auto;
+} */
+.card_img{
+    height: 200px;
+    width: 300px;
+}
